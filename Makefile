@@ -1,5 +1,5 @@
-IMAGE_VERSION = latest
-IMAGE = sibset/rundeck:$(IMAGE_VERSION)
+IMAGE_VERSION = 2.6.2
+IMAGE = pavelgopanenko/rundeck:$(IMAGE_VERSION)
 
 .PHONY: all
 

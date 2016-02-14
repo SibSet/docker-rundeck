@@ -22,7 +22,7 @@ rundeck_db:
     - MYSQL_DATABASE=rundeck
 
 rundeck:
-  image: sibset/rundeck
+  image: pavelgopanenko/rundeck:2.6.2
   restart: always
   container_name: rundeck
   ports:
